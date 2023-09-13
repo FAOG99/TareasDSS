@@ -37,6 +37,7 @@
        }
      }
      ```
+El ejemplo muestra una consulta SQL que incorpora una entrada del usuario (`userName`) directamente en la consulta. Esto es una violación del estándar CERT IDS00-J, que recomienda prevenir la inyección de SQL mediante la validación y parametrización de las entradas del usuario.
 
 ### 2. CWE-79: Cross-Site Scripting (XSS)
    - **CERT: IDS02-J. Canonicalize and validate input to ensure data is safe to display**
@@ -55,6 +56,7 @@
      </body>
      </html>
      ```
+El ejemplo muestra un script HTML/JavaScript que toma una entrada del usuario y la muestra directamente en la página web. Esto es una violación del estándar CERT IDS02-J, que recomienda validar y canonicalizar la entrada del usuario para asegurarse de que sea segura para mostrar.
 
 ### 3. CWE-190: Integer Overflow or Wraparound
    - **CERT: INT32-C. Ensure that operations on signed integers do not result in overflow**
@@ -68,3 +70,4 @@
        printf("Result: %d\n", result);
        return 0;
      }
+El ejemplo muestra una operación en C que resulta en un desbordamiento de enteros. Esto es una violación del estándar CERT INT32-C, que recomienda asegurarse de que las operaciones en enteros con signo no resulten en desbordamiento.
