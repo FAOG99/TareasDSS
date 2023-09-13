@@ -1,4 +1,4 @@
-# Investigación sobre Common Weakness Enumeration Framework y CERT Secure Coding Standards
+# Common Weakness Enumeration Framework y CERT Secure Coding Standards
 
 ## Objetivos
 
