@@ -102,3 +102,7 @@ memcpy(bp, pl, payload);
 ```
 
 memcpy() es el comando que copia datos. bp es el lugar al que se están copiando, pl es de donde se copian, y payload es la longitud de los datos que se están copiando. Como hemos visto, el problema es que nunca se intenta verificar si la cantidad de datos en pl es igual al valor dado de payload.
+
+https://www.csoonline.com/article/562859/the-heartbleed-bug-how-a-flaw-in-openssl-caused-a-security-crisis.html
+
+
